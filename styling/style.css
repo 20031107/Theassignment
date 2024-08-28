@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: azure;
+    background-color: gray;
+}
+.head-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    
+    padding: 10px;
+    flex-basis: 50%;
+}
+nav{
+    flex-basis: 40%;
+  
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+}
+.Signup{
+    font-weight: 600;
+    padding: 10px;
+    background-color: rgb(158, 157, 157);
+    border-radius: 10px;
+}
+.inner-container{
+    display: flex;
+  
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+.image{
+    margin-top: 35px;
+    flex-basis: 30%;
+    margin-left: 40px;
+}
+h3{
+    font-size: 30px;
+   margin-left: 40px;
+}
+.write-up{
+    line-height: 26px;
+    flex-basis: 50%;
+    background-color: grey;
+}
+section{
+    font-size: 17px;
+    margin: 30px;
+}
+blockquote{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    background-color: rgb(158, 157, 157);
+    margin-left: 30px;
+    padding: 20px;
+    width: 620px;
+}
+span{
+   
+    font-size: 70px;
+}
+.read{
+    margin-left: 30px;
+}
+.read a{
+    color: azure;
+}
+@media (min-width:325px) and (max-width:420px) {
+ 
+    .inner-container{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-left: 0;
+        padding: 15px;
+    
+    }
+    section{
+        line-height: 30px;
+    }
+    img{
+        width: 300px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .image{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-left: 0;
+    }
+    h3{
+        margin-right: 32px;
+    }
+    blockquote{
+        font-size: 20px;
+        font-weight: 600;
+        color:white;
+        background-color: rgb(158, 157, 157);
+        margin-left: 28px;
+        padding: 20px;
+        width: 410px;
+        
+    }
+    .head-cont{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    .read{
+        margin-bottom: 20px;
+    }
+  
+
+}
+
+    
+
+    
